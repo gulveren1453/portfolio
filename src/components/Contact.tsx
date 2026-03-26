@@ -41,7 +41,7 @@ export default function Contact() {
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.65rem', maxWidth: 500 }}>
             {[
               { icon: <FiGithub size={14} />, label: 'GitHub', href: 'https://github.com/gulveren1453' },
-              { icon: <FiLinkedin size={14} />, label: 'LinkedIn', href: 'https://linkedin.com/in/gulveren1453' },
+              { icon: <FiLinkedin size={14} />, label: 'LinkedIn', href: 'https://www.linkedin.com/in/gulveren-canpolat-28b79b231' },
               { icon: <FiPhone size={14} />, label: '+90 553 165 96 35', href: 'tel:+905531659635' },
             ].map((l, i) => (
               <motion.a key={i} href={l.href} target={l.href.startsWith('http') ? '_blank' : undefined} rel="noopener noreferrer"

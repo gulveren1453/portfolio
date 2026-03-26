@@ -142,14 +142,8 @@ export const translations = {
       label: 'İletişim',
       title: 'Bana Ulaşın',
       subtitle: 'Bir proje için iş birliği yapmak veya sadece merhaba demek ister misiniz? Mesaj atmaktan çekinmeyin.',
-      email: {
-        text: 'E-posta Gönder',
-        url: 'mailto:gulveren211504041@gmail.com',
-      },
-      links: {
-        text: 'Sosyal Bağlantılar',
-        url: 'https://www.linkedin.com/in/gulveren-canpolat-28b79b231',
-      },
+      email: 'E-posta Gönder',
+      links: 'Sosyal Bağlantılar',
     },
     footer: {
       text: 'Gülveren Canpolat tarafından yapıldı',
@@ -181,23 +175,124 @@ export const translations = {
       university: 'Hasan Kalyoncu University',
       language: 'English — B1',
     },
-    experience: { /* aynı kalacak */ },
-    education: { /* aynı kalacak */ },
-    skills: { /* aynı kalacak */ },
-    projects: { /* aynı kalacak */ },
-    certificates: { /* aynı kalacak */ },
+    experience: {
+      label: 'Experience',
+      title: 'Work Experience',
+      items: [
+        {
+          role: 'Software Engineer',
+          company: 'MMT American Hospital',
+          period: 'November 2025 — Present',
+          desc: 'Updating the internal hospital website, content management, and improving user experience using WordPress and Elementor.',
+        },
+        {
+          role: 'Member of the Board of Directors',
+          company: 'HKU Software Community',
+          period: '2021 — 2023 · Gaziantep',
+          desc: 'Served as a Board Member of the HKU Software Club for two years. Worked as social media manager, promoted the club during orientation events and contributed to the recruitment of new members.',
+        },
+      ],
+    },
+    education: {
+      label: 'Education',
+      title: 'Education',
+      degree: 'Software Engineering (English)',
+      school: 'Hasan Kalyoncu University',
+      period: '2021 — 2026',
+    },
+    skills: {
+      label: 'Skills',
+      title: 'Technical Skills',
+      categories: [
+        {
+          name: 'Programming',
+          items: ['Python', 'C', 'C++', 'C#', 'SQL'],
+        },
+        {
+          name: 'Data Analysis',
+          items: ['NumPy', 'Pandas', 'Power BI', 'Excel', 'CRM Analytics', 'Data Processing'],
+        },
+        {
+          name: 'Web & Mobile',
+          items: ['React Native', 'HTML', 'CSS', 'JavaScript', 'WordPress', 'Elementor'],
+        },
+      ],
+    },
+    projects: {
+      label: 'Projects',
+      title: 'Featured Projects',
+      github: 'View on GitHub',
+      items: [
+        {
+          name: 'Airline Customer Satisfaction Analysis',
+          desc: 'Machine learning model predicting airline customer satisfaction. Data preprocessing, visualization, and classification algorithms applied with Pandas and NumPy.',
+          tags: ['Python', 'Pandas', 'NumPy', 'ML'],
+          url: 'https://github.com/gulveren1453/airline-customer-satisfaction-Analysis-Analysis',
+        },
+        {
+          name: 'Dükkan — E-Commerce Mobile Interface',
+          desc: 'Modern e-commerce mobile app interface built with React Native. Designed product listing, shopping cart, and user flows.',
+          tags: ['React Native', 'Mobile UI', 'JavaScript'],
+          url: 'https://github.com/gulveren1453/dukkan',
+        },
+        {
+          name: 'Skincare — Web Interface Project',
+          desc: 'Skincare product website interface built from scratch with HTML, CSS, and JavaScript. Focused on responsive design and user experience.',
+          tags: ['HTML', 'CSS', 'JavaScript'],
+          url: 'https://github.com/gulveren1453/skincare',
+        },
+        {
+          name: 'Smart Retail RFM Analysis',
+          desc: 'RFM (Recency, Frequency, Monetary) analysis for customer segmentation. CRM analytics applied on retail data.',
+          tags: ['Python', 'CRM', 'Data Analysis'],
+          url: 'https://github.com/gulveren1453/smart-retail-rfm-analysis',
+        },
+        {
+          name: 'SaveBite',
+          desc: 'Application project developed to reduce food waste.',
+          tags: ['Python', 'App'],
+          url: 'https://github.com/gulveren1453/SaveBite',
+        },
+        {
+          name: 'Kitap Takip (Book Tracker)',
+          desc: 'Personal book reading tracker application.',
+          tags: ['Python'],
+          url: 'https://github.com/gulveren1453/kitap-takip',
+        },
+      ],
+    },
+    certificates: {
+      label: 'Certificates',
+      title: 'Certificates & Training',
+      items: [
+        {
+          name: 'Data Analyst Path',
+          org: 'Yetkin Gençler (YETGEN)',
+          desc: 'Comprehensive training in data analysis, SQL querying, Excel analytics, Power BI visualization, Python programming, and CRM analytics.',
+        },
+        {
+          name: 'Python Programming for Data Science',
+          org: 'Online Training',
+          desc: 'Fundamentals and applications of Python programming for data science.',
+        },
+        {
+          name: 'Digital Masters Academy Unity Training',
+          org: 'Digital Masters Academy',
+          desc: 'Fundamentals of game development with the Unity game engine.',
+        },
+        {
+          name: 'Yetkin Gençler (YETGEN) Trainee',
+          org: 'YETGEN',
+          desc: 'Comprehensive training program in software development and personal growth.',
+        },
+      ],
+    },
     contact: {
       label: 'Contact',
       title: 'Get In Touch',
       subtitle: 'Want to collaborate on a project or just say hello? Feel free to reach out.',
-      email: {
-        text: 'Send Email',
-        url: 'mailto:gulveren211504041@gmail.com',
-      },
-      links: {
-        text: 'Social Links',
-        url: 'https://www.linkedin.com/in/gulveren-canpolat-28b79b231',
-      },
+      email: 'Send Email',
+      links: 'Social Links',
     },
     footer: {
       text: 'Built by Gülveren Canpolat',
